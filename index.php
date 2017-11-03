@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: nev
- * Date: 03/11/2017
- * Time: 14:47
- */
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stats - Assessment</title>
+</head>
+<body>
+<?php include 'nav.php'; ?>
+
+</body>
+</html>
