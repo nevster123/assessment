@@ -8,14 +8,14 @@
 
 require_once 'BaseModel.php';
 
-class Genre extends BaseModel {
+class User extends BaseModel {
 
     public function __construct() {
-        parent::__construct("genres");
+        parent::__construct("users");
     }
 
     public function save($name) {
         $name = $this->database->quote($name);
-        return $this->query("INSERT INTO genres (name) VALUES ($name)");
+        return $this->query("INSERT INTO users (name) VALUES ($name)");
     }
 }
